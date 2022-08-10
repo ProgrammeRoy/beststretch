@@ -12,144 +12,242 @@ h2 {
 .grid_cards {
   width: 2100%;
   display: flex;
-  animation: changes 735s infinite;
+  animation: changes 1190s infinite;
 }
 
 .card {
   width: 100%;
 }
 
-img {
-  width: 100%;
-  padding: 0;
-  margin: 0;
+.myimage1 {
+  background-image: url(img/1self.webp);
 }
 
+.myimage2 {
+  background-image: url(img/2self.webp);
+}
+
+.myimage3 {
+  background-image: url(img/3self.webp);
+}
+
+.myimage4 {
+  background-image: url(img/4self.webp);
+}
+
+.myimage5 {
+  background-image: url(img/5self.webp);
+}
+
+.myimage6 {
+  background-image: url(img/6self.webp);
+}
+
+.myimage7 {
+  background-image: url(img/7self.webp);
+}
+
+.myimage8 {
+  background-image: url(img/8self.webp);
+}
+
+.myimage9 {
+  background-image: url(img/9self.webp);
+}
+
+.myimage10 {
+  background-image: url(img/10self.webp);
+}
+
+.myimage11 {
+  background-image: url(img/11self.webp);
+}
+
+.myimage12 {
+  background-image: url(img/12self.webp);
+}
+
+.myimage13 {
+  background-image: url(img/13self.webp);
+}
+
+.myimage14 {
+  background-image: url(img/14self.webp);
+}
+
+.myimage15 {
+  background-image: url(img/15self.webp);
+}
+
+.myimage16 {
+  background-image: url(img/16self.webp);
+}
+
+.myimage17 {
+  background-image: url(img/17self.webp);
+}
+
+.myimage18 {
+  background-image: url(img/18self.webp);
+}
+
+.myimage19 {
+  background-image: url(img/19self.webp);
+}
+
+.myimage20 {
+  background-image: url(img/20self.webp);
+}
+
+.myimage21 {
+  background-image: url(img/21self.webp);
+}
+
+.custom {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100rem;
+  background-position: top center;
+}
+
+@media (min-width: 750px) {
+  .custom {
+    max-height: 40rem;
+  }
+}
+
+
+/* @media (min-width: 1020px) {
+  .custom {
+    height: 80rem;
+  }
+} */
+
 @keyframes changes {
-  0.68% {
+  0.42% {
+    move-left: 0;
+  }
+  2.94% {
     margin-left: 0;
   }
-  4.76% {
-    margin-left: 0;
-  }
-  5.44% {
+  3.36% {
     margin-left: -100%;
   }
-  9.52% {
+  8.82% {
     margin-left: -100%;
   }
-  10.20% {
+  9.24% {
     margin-left: -200%;
   }
-  14.29% {
+  14.71% {
     margin-left: -200%;
   }
-  14.97% {
+  15.13% {
     margin-left: -300%;
   }
-  19.05% {
+  20.59% {
     margin-left: -300%;
   }
-  19.73% {
+  21.01% {
     margin-left: -400%;
   }
-  23.81% {
+  26.47% {
     margin-left: -400%;
   }
-  24.49% {
+  26.89% {
     margin-left: -500%;
   }
-  28.57% {
+  32.35% {
     margin-left: -500%;
   }
-  29.25% {
+  32.77% {
     margin-left: -600%;
   }
-  33.33% {
+  35.29% {
     margin-left: -600%;
   }
-  34.01% {
+  35.71% {
     margin-left: -700%;
   }
-  38.10% {
+  38.24% {
     margin-left: -700%;
   }
-  38.78% {
+  38.66% {
     margin-left: -800%;
   }
-  42.86% {
+  41.18% {
     margin-left: -800%;
   }
-  43.54% {
+  41.60% {
     margin-left: -900%;
   }
-  47.62% {
+  47.06% {
     margin-left: -900%;
   }
-  48.30% {
+  47.48% {
     margin-left: -1000%;
   }
-  52.38% {
+  52.94% {
     margin-left: -1000%;
   }
-  53.06% {
+  53.36% {
     margin-left: -1100%;
   }
-  57.14% {
+  58.82% {
     margin-left: -1100%;
   }
-  57.82% {
+  59.24% {
     margin-left: -1200%;
   }
-  61.90% {
+  64.71% {
     margin-left: -1200%;
   }
-  62.59% {
+  65.13% {
     margin-left: -1300%;
   }
-  66.67% {
+  70.59% {
     margin-left: -1300%;
   }
-  67.35% {
+  71.01% {
     margin-left: -1400%;
   }
-  71.43% {
+  76.47% {
     margin-left: -1400%;
   }
-  72.11% {
+  76.89% {
     margin-left: -1500%;
   }
-  76.19% {
+  79.41% {
     margin-left: -1500%;
   }
-  76.87% {
+  79.83% {
     margin-left: -1600%;
   }
-  80.95% {
+  82.35% {
     margin-left: -1600%;
   }
-  81.63% {
+  82.77% {
     margin-left: -1700%;
   }
-  85.71% {
+  88.24% {
     margin-left: -1700%;
   }
-  86.39% {
+  88.66% {
     margin-left: -1800%;
   }
-  90.48% {
+  91.18% {
     margin-left: -1800%;
   }
-  91.16% {
+  91.60% {
     margin-left: -1900%;
   }
-  95.24% {
+  97.06% {
     margin-left: -1900%;
   }
-  95.92% {
+  97.48% {
     margin-left: -2000%;
   }
-  100% {
+  100.00% {
     margin-left: -2000%;
   }
 }
